@@ -5,10 +5,7 @@ import { v4 as uuid } from 'uuid';
 import './BoxList.css';
 
 function BoxList() {
-	const initialState = [
-		{backgroundColor: "red", width: 200, height: 200, id: uuid()},
-		{backgroundColor: "blue", width: 100, height: 100, id: uuid()}
-	]
+	const initialState = []
 
 	const [ boxes, setBoxes ] = useState(initialState);
 

@@ -21,14 +21,14 @@ function NewBoxForm({addBox}) {
 	}
 	return (
 		<form className="NewBoxForm">
-			<label className="NewBoxForm-label" htmlFor="backgroundColor">Backgoround Color</label>
-			<input className="NewBoxForm-input" type="text" name="backgroundColor" id="backgroundColorInput" value={formData.backgroundColor} onChange={handleChange}></input>
+			<label className="NewBoxForm-label" htmlFor="backgroundColor">Background Color</label>
+			<input className="NewBoxForm-input" type="text" name="backgroundColor" id="backgroundColor" value={formData.backgroundColor} onChange={handleChange}></input>
 
 			<label className="NewBoxForm-label" htmlFor="width">Width</label>
-			<input className="NewBoxForm-input" type="text" name="width" id="widthInput" value={formData.width} onChange={handleChange}></input>
+			<input className="NewBoxForm-input" type="text" name="width" id="width" value={formData.width} onChange={handleChange}></input>
 
-			<label className="NewBoxForm-label" htmlFor="height">Wdith</label>
-			<input className="NewBoxForm-input" type="text" name="height" id="heightInput" value={formData.height} onChange={handleChange}></input>
+			<label className="NewBoxForm-label" htmlFor="height">Height</label>
+			<input className="NewBoxForm-input" type="text" name="height" id="height" value={formData.height} onChange={handleChange}></input>
 
 			<button onClick={handleSubmit}>Add Box</button>
 		</form>
